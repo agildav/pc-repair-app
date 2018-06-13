@@ -1,0 +1,13 @@
+body {
+  font: 20px Helvetica, Arial, sans-serif;
+}
+
+a.navbar-brand {
+  margin-right: 2em;
+}
+
+a.nav-link {
+  color: #00b7ff;
+  padding: 0.6em;
+  margin-right: 1em;
+}
