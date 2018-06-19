@@ -1,25 +1,30 @@
 extends layout
 
 block content
-    .row
-      .col-md-4
-        .card
-          h2.card-header Hardware problems?
-          p.card-body
-            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae velit hic quis 
-            | nemo! Quia consequatur consectetur error alias. Aliquid, corporis cupiditate
-            | dolorum officia animi nostrum culpa ex quae exercitationem asperiores!
-      .col-md-4
-        .card
-          h2.card-header Software problems?
-          p.card-body
-            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae velit hic quis 
-            | nemo! Quia consequatur consectetur error alias. Aliquid, corporis cupiditate
-            | dolorum officia animi nostrum culpa ex quae exercitationem asperiores!
-      .col-md-4
-        .card
-          h2.card-header PC TuneUp
-          p.card-body
-            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae velit hic quis 
-            | nemo! Quia consequatur consectetur error alias. Aliquid, corporis cupiditate
-            | dolorum officia animi nostrum culpa ex quae exercitationem asperiores!
+  .jumbotron
+    .container
+      .row
+        .col-sm-5
+          h2  Computer not working? Call us
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui placeat eveniet nulla consequatur neque at suscipit vitae voluptate cupiditate tempore enim saepe exercitationem minima quas
+          a.btn.btn-primary.btn-lg(href="#") Read more here
+        .offset-sm-2.col-sm-5
+          img.img-fluid(src="images/mouse.png", alt="Mouse")
+
+  .row
+    .col-md-4
+      .card
+        h4.card-header Hardware problems?
+        p.card-body
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae velit hic
+    .col-md-4
+      .card
+        h4.card-header Software problems?
+        p.card-body
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae velit hic
+    .col-md-4
+      .card
+        h4.card-header PC TuneUp
+        p.card-body
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae velit hic
