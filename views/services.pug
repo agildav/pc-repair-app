@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 #{title}
+  each service in services
+    .well
+      h3 #{service.name}

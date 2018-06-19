@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Hardware repair",
+    "description":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error quis delectus, in porro rem numquam nostrum quia rerum.",
+    "price": "100-200$"
+  },
+  {
+    "name": "Virus removal",
+    "description":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error quis delectus, in porro rem numquam nostrum quia rerum.",
+    "price": "50-100$"
+  },
+  {
+    "name": "PC Tune Up",
+    "description":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error quis delectus, in porro rem numquam nostrum quia rerum.",
+    "price": "75-100$"
+  },
+  {
+    "name": "Network Services",
+    "description":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error quis delectus, in porro rem numquam nostrum quia rerum.",
+    "price": "500-1000$"
+  }
+  
+]
