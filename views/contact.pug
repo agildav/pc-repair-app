@@ -2,8 +2,20 @@ extends layout
 
 block content
   .container
-    .row
-      .col-sm-5
-        h1 #{title}
-        p
-          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui placeat eveniet nulla consequatur neque at suscipit vitae voluptate cupiditate tempore enim saepe exercitationem minima quas
+    form(action="contact/send", method="post")
+      h1 #{title}
+      br
+      .form-group
+        label Name
+        input.form-control(type="text", name = "name", placeholder = "Enter your name" ,required)
+      .form-group
+        label Email
+        input.form-control(type="text", name = "email", placeholder = "Enter your email" ,required)
+      .form-group
+        label Message
+        textarea.form-control(name="message", cols="10", rows="3", placeholder="Enter your message", required)
+      button.btn.btn-primary(type="submit") Submit!
+
+
+
+
